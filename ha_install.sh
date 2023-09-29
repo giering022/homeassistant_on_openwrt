@@ -65,7 +65,7 @@ if [ $(ps | grep "[/]usr/bin/hass" | wc -l) -gt 0 ]; then
 fi
 
 echo "Install base requirements from feed..."
-opkg update
+
 
 PYTHON_VERSION=$(get_python_version)
 echo "Detected Python ${PYTHON_VERSION}"
